@@ -19,7 +19,11 @@ def remove_strawberry(contacts)
      if key == "Freddy Mercury"
        value.each do |detail, content|
          if detail == :favorite_ice_cream_flavors
+<<<<<<< HEAD
            content.delete_if do |ice_cream|
+=======
+           data.delete_if do |ice_cream|
+>>>>>>> 53afd5b268e7eebf3d4c8c4c709e6b3ed516dfd1
              ice_cream =="strawberry"
            end
          end
